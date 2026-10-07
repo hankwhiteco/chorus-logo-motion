@@ -8,7 +8,7 @@ const MAX_SECONDS = 60;
 
 const ex = {
   format: 'gif',      // 'gif' | 'mp4'
-  content: 'full',    // 'full' | 'symbol'
+  content: 'symbol',  // 'full' | 'symbol'
   mode: 'loop',       // 'loop' | 'intro'
   transparent: true,  // GIF only — MP4 (H.264) can't carry transparency
   background: '#FCF7F1',   // brand Cream

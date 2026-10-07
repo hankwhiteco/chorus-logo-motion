@@ -275,7 +275,7 @@ const DEFAULTS: Omit<Props, "style"> = {
     introWave: 7.1,
     hover: true,
     alwaysWave: false,
-    wordmark: true,
+    wordmark: false,
     settle: 1.2,
     wavelength: 14,
     speed: 4,
@@ -292,8 +292,8 @@ const DEFAULTS: Omit<Props, "style"> = {
 /**
  * @framerSupportedLayoutWidth any
  * @framerSupportedLayoutHeight any
- * @framerIntrinsicWidth 262
- * @framerIntrinsicHeight 37
+ * @framerIntrinsicWidth 237
+ * @framerIntrinsicHeight 263
  */
 export default function ChorusLogoMotion(rawProps: Partial<Props>) {
     const props = { ...DEFAULTS, ...rawProps } as Props
@@ -644,7 +644,7 @@ const MAX_SECONDS = 60;
 
 const ex = {
   format: 'gif',      // 'gif' | 'mp4'
-  content: 'full',    // 'full' | 'symbol'
+  content: 'symbol',  // 'full' | 'symbol'
   mode: 'loop',       // 'loop' | 'intro'
   transparent: true,  // GIF only — MP4 (H.264) can't carry transparency
   background: '#FCF7F1',   // brand Cream

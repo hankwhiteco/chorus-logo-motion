@@ -188,7 +188,7 @@ const DEFAULTS: Omit<Props, "style"> = {
     introWave: 7.1,
     hover: true,
     alwaysWave: false,
-    wordmark: true,
+    wordmark: false,
     settle: 1.2,
     wavelength: 14,
     speed: 4,
@@ -205,8 +205,8 @@ const DEFAULTS: Omit<Props, "style"> = {
 /**
  * @framerSupportedLayoutWidth any
  * @framerSupportedLayoutHeight any
- * @framerIntrinsicWidth 262
- * @framerIntrinsicHeight 37
+ * @framerIntrinsicWidth 237
+ * @framerIntrinsicHeight 263
  */
 export default function ChorusLogoMotionLight(rawProps: Partial<Props>) {
     const props = { ...DEFAULTS, ...rawProps } as Props
